@@ -40,7 +40,7 @@ Make sure you have the following Python packages:
 # 🚀 How to Run
 Clone the repository:
 
-git clone https://github.com/your-username/movie-recommendation-system.git
+git clone https://github.com/PrakharBarsainya/Movie_recommendation.git
 cd movie-recommendation-system
 Run the app:
 
@@ -51,5 +51,8 @@ http://localhost:8501
 # 🖼️ Poster API Integration
 Poster images are retrieved via the Watchmode Autocomplete Search API.
 
-📫 Contact
+# 📫 Contact
 Developed by []
+
+# Dataset
+

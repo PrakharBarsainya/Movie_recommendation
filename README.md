@@ -52,7 +52,7 @@ http://localhost:8501
 Poster images are retrieved via the Watchmode Autocomplete Search API.
 
 # 📫 Contact
-Developed by []
+Developed by [https://github.com/PrakharBarsainya]
 
 # 📊 Dataset
 The movie metadata used in this project is sourced from the TMDB 5000 Movie Dataset available on Kaggle.

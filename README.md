@@ -1,31 +1,25 @@
-🎬 Movie Recommendation System
-A content-based and collaborative filtering movie recommendation system built using Python, Scikit-Learn, Pandas, and other ML libraries.
+# 🎬 Movie Recommendation System
+An interactive movie recommendation system built with Streamlit, using machine learning techniques to suggest similar movies and the Watchmode API to display movie posters dynamically.
 
-📌 Project Overview
-This project aims to build a movie recommendation engine that suggests movies based on user preferences. It uses techniques such as:
+# 📌 Project Overview
+This application recommends 10 movies similar to a user-selected movie from the dataset. The UI is powered by Streamlit, and movie posters are fetched in real time using the Watchmode API.
 
-Content-based filtering
+## ⚙️ Features
+- ✅ Movie Recommendation based on content similarity
 
-Cosine similarity
+- 🖼️ Dynamic Poster Fetching using Watchmode API
 
-Natural Language Processing (NLP)
+- 📊 Interactive Web UI using Streamlit
 
-TF-IDF vectorization
+- 🔍 complete Movie Search
 
-🧠 Features
-Recommend movies based on description, genres, cast, and crew.
+- 🧠 Easy to deploy and extend
 
-Utilizes cosine similarity to find similar movies.
+# 🧠 How It Works
+- User selects a movie from a dropdown list.
 
-Clean and modular code with Jupyter Notebooks for demonstration.
+- A recommendation function (get_recommendations) retrieves 10 similar movies.
 
-🔧 Technologies Used
-Python
+- The fetch_poster() function queries the Watchmode API for posters of the recommended movies.
 
-Pandas, NumPy
-
-Scikit-learn
-
-NLTK
-
-Flask (for deployment)
+- Posters and titles are displayed in a clean 2x5 grid.

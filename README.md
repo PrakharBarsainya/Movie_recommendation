@@ -59,7 +59,10 @@ The movie metadata used in this project is sourced from the TMDB 5000 Movie Data
 
 # 🔗 Download Link:
 📥 Download the dataset from Kaggle
-[👉 TMDB 5000 Movie Dataset on Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+[👉 TMDB 5000 Movie Dataset on Kaggle][(https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)]
+
+# Deployed Link:
+👉 You can check here [https://huggingface.co/spaces/Prakhar-core7/Movie_Recommendation_System]
 
 # 📁 Files Included:
 - movies.csv – Contains movie titles, genres, overview, cast, crew, and other metadata

@@ -23,7 +23,7 @@ def get_recommendations(title, cosine_sim=cosine_sim):
 
 # Function to fetch movie poster
 def fetch_poster(movie_title):  # Accepts movie title (string)
-    api_key = 'u0DmoKUYLC6P9Y8COL5fGe8D2EQCL6IplC1S9CWB'
+    api_key = 'YOUR_API_KEY'
     encoded_title = quote_plus(str(movie_title))
 
     url = f'https://api.watchmode.com/v1/autocomplete-search/?apiKey={api_key}&search_value={encoded_title}&search_type=1'
@@ -62,4 +62,5 @@ if st.button('Recommend'):
                 with col:
                     st.image(poster_url, width=130)
                     st.caption(movie_title)
+
 

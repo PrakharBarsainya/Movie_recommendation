@@ -54,5 +54,15 @@ Poster images are retrieved via the Watchmode Autocomplete Search API.
 # 📫 Contact
 Developed by []
 
-# Dataset
+# 📊 Dataset
+The movie metadata used in this project is sourced from the TMDB 5000 Movie Dataset available on Kaggle.
+
+# 🔗 Download Link:
+📥 Download the dataset from Kaggle
+[👉 TMDB 5000 Movie Dataset on Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+
+# 📁 Files Included:
+- movies.csv – Contains movie titles, genres, overview, cast, crew, and other metadata
+
+- credits.csv – Contains detailed cast and crew information
 
